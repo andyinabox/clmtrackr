@@ -10,13 +10,6 @@ var jsfeat_face = require('./jsfeat_detect.js');
 var webglFilter = require('./svmfilter_webgl.js');
 var svmFilter = require('./svmfilter_fft.js');
 
-// filters
-var entire_face_filter = require('./filters/entire_face_filter.json');
-var left_eye_filter = require('./filters/left_eye_filter.json');
-var right_eye_filter = require('./filters/right_eye_filter.json');
-var nose_filter = require('./filters/nose_filter.json');
-
-
 var clm = {
 	tracker : function(params) {
 		
